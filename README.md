@@ -20,7 +20,7 @@
 *Obs: cada criança equivale a 0.5 de pessoa
 
 <h2>2- Feito isso, o código apresenta o resultado em formato de lista no html</h2>
-<img src='https://user-images.githubusercontent.com/81205077/125011880-a45c3580-e03f-11eb-9259-1bfc7f305d29.png'>
+<img src='https://user-images.githubusercontent.com/81205077/125119496-8cc88f80-e0c7-11eb-9965-eae038e80c8e.png'>
 
 <h2>Tecnologias utilizadas:</h2>
     <li>Javascript</li>
