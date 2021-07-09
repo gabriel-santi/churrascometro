@@ -6,7 +6,7 @@
         
 
 <h2>1- Como funciona ?</h2>
-<img src='https://user-images.githubusercontent.com/81205077/125011775-74ad2d80-e03f-11eb-8135-8df7266ab1af.png'>
+<img src='https://user-images.githubusercontent.com/81205077/125119372-61de3b80-e0c7-11eb-9291-cfbc2ba45621.png'>
 <h3>Após preencher os três campos, o script calcula levando em
         consideração que para cada pessoa serão consumidos:</h3>
 <li> 400g de carne</li>
