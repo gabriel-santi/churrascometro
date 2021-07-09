@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('./assets/churras-bg.jpg');
+    overflow: hidden;
+}
+
+*{
+    border-radius: 5px;
+}
+
+.container{
+    background-color: rgb(179, 86, 0);
+    border-radius: 10px;
+    box-shadow:  0 0 5px 8px rgba(0, 0, 0, 0.712);
+
+    width: 60vw;
+    height: 75vh;
+    margin: 3rem auto;
+    padding: 20px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.inputs{
+    margin: 1rem 0 0 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+.inputs>.inputArea{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 3px solid rgb(59, 39, 0);
+    
+    text-align: center;
+    
+    width: 10rem;
+    padding: 10px;
+    margin: 10px 0;
+    
+    transition: 0.2s;
+}
+
+input:focus{
+    outline: 0;
+    transform: scale(1.2);
+}
+
+button{
+    cursor: pointer;
+
+    height: 4rem; 
+    width: 10rem;
+
+    font-weight: 700;
+    font-size: 1rem;
+
+    background-color: rgb(179, 86, 0);
+    color: #FFF;
+    border: 3px solid #FFF;
+    transition: 0.4s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+ul{
+    background-color: rgb(246, 255, 161);
+    border: 1px solid black;
+    width: 20rem;
+    margin: 1rem auto;
+    padding: 0;
+    text-align: left;
+}
+
+ul>h2{
+    margin: 0;
+}
+
+li{
+    padding: 5px;
+    border-bottom: 2px solid blue;
+    font-size: 0.8rem;
+    font-weight: 600;
+    list-style: none;
+}
+
+li>img{
+    margin-right: 10px;
+    width: 40px;
+}
+
+footer{
+    border-radius: 20px;
+    background-color: #FFF;
+    
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+}
