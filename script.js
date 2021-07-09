@@ -29,9 +29,9 @@ function calculaComida(adultos, criancas, horas) {
     }
 
     const comidas = {
-        carne: `${carne}mg de carne`,
-        cerva: `${cerva}ml de cerva`,
-        refri: `${refri}ml de refrigerante`
+        carne: `${carne / 1000} Kg de carne`,
+        cerva: `${cerva / 1000} L de cerva`,
+        refri: `${refri / 1000} L de refrigerante`
     }
 
     mostraLista(comidas)
@@ -40,8 +40,8 @@ function calculaComida(adultos, criancas, horas) {
 function mostraLista(ingredientes) {
     const lista = document.getElementById('lista')
     lista.innerHTML = `
-    <h2>Ingredientes:</h2>
-    <li>${ingredientes.carne}</li>
-    <li>${ingredientes.cerva}</li>
-    <li>${ingredientes.refri}</li>`
+    <h2>Sugestão:</h2>
+    <li><img src='./assets/meat.png'>${ingredientes.carne}</li>
+    <li><img src='./assets/beer.png'>${ingredientes.cerva}</li>
+    <li><img src='./assets/cola.png'>${ingredientes.refri}</li>`
 }
