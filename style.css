@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 233, 213);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.164);
+
+    width: 60vw;
+    height: 70vh;
+    margin: 3rem auto;
+    padding: 40px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.title{
+    color: rgb(230, 148, 81);
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.inputs{
+    margin: 5rem 0 1rem 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+.inputs>.inputArea{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    text-align: center;
+    width: 10rem;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(230, 148, 81);
+}
+
+button{
+    cursor: pointer;
+
+    height: 4rem; 
+    width: 10rem;
+
+    font-weight: 700;
+    font-size: 1rem;
+
+    background-color: #FFF;
+    color: rgb(230, 148, 81);
+    border: 3px solid rgb(230, 148, 81);
+}
+
+ul{
+    background-color: rgb(246, 255, 161);
+    border: 1px solid black;
+    padding: 0;
+}
+
+li{
+    padding: 5px;
+    border-bottom: 2px solid blue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    list-style: none;
+}
