@@ -19,7 +19,7 @@
 <br>
 *Obs: cada criança equivale a 0.5 de pessoa
 
-<h2>2- Feito isso, o código apresenta o resultado em formato de lista no html</h2>
+<h2>2- Feito isso, o código apresenta a sugestão no formato de uma lista no html</h2>
 <img src='https://user-images.githubusercontent.com/81205077/125119496-8cc88f80-e0c7-11eb-9965-eae038e80c8e.png'>
 
 <h2>Tecnologias utilizadas:</h2>
